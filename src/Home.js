@@ -93,8 +93,8 @@ function Home() {
   };
 
   const handleShowDialog = () => {
-    setOpen(true);
-    setRender(false);
+    // setOpen(true);
+    // setRender(false);
     // console.log("cliked");
   };
   return (
