@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container-photos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  /* margin : 10px;
+  /* margin-bottom: 10px; */
+  /* border-bottom: 10px; */
+}
+.pagination {
+  margin-bottom: 50px;
+}
+
+.dialog {
+  box-shadow: 0 8px 6px -6px black;
+  position: static;
+  left: 50%;
+  top: 10%;
+  width: 100vh;
+  height: 100vh;
+}
+img {
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+  margin-right: 20px;
+  /* margin-bottom: 20px; */
+}
+
+body {
+  background-image: url("https://source.unsplash.com/random");
+  object-fit: cover;
+}
+.imageView__container {
+  width: 160vh;
+  height: 95vh;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  /* color: #fff; */
+  background-color: white;
+  border: solid 4px #34495e;
+}
+
+.imageView__img {
+  height: 500px;
+  width: 200vh;
+}
+
+.imageView__text a {
+  font-weight: bold;
+  color: blue;
+  border: solid 4px #34495e;
+  background-color: rgb(184, 215, 224);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: "20px";
+}
+
+.imageView__text button {
+  border: 0;
+  background: transparent;
+  margin-top: 10px;
+}
